@@ -1,0 +1,23 @@
+.card-img-top {
+    width: 200px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+.user-div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    width: 30%;
+}
+

@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://jakobkubicki:test@musify.vw2a1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "musify_jwt567894"
+}

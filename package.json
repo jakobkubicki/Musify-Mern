@@ -1,0 +1,35 @@
+{
+  "name": "musify",
+  "version": "1.0.0",
+  "description": "A social media platform for music lovers",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "build": "npm install",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "Jakob Kubicki",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap-select": "^1.13.18",
+    "brcypt": "^1.0.1",
+    "concurrently": "^6.0.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "jQuery": "^1.7.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.0",
+    "react-router-dom": "^5.2.0",
+    "rxjs": "^6.6.6",
+    "rxjs-compat": "^6.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
